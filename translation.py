@@ -20,7 +20,7 @@ Made by @Automatted_Bot | @HelpAutomatted_Bot
     ABOUT_TEXT = """
 - **Bot :**URL-UPLOADER-V2
 - **Creator :** [✯°• ANUNEET-Prg °•✯ | ✪ Bᴏᴛs CʀᴇᴀᴛᴏR ✪](https://telegram.me/Automatted_Bot)
-- **Credits :** `[SUPPORT][https://t.me/HelpAutomatted_Bot`
+- **Credits :** `[SUPPORT][https://t.me/HelpAutomatted_Bot]`
 - **Source :** [CLICK HERE](https://github.com/ANUNEET-Prg/URL-UPLODER_V2)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
