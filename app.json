@@ -7,9 +7,9 @@
     "uploader",
     "pyrogram"
   ],
-  "success_url": "https://www.youtube.com/channel/UCWBJ4ZVNc4kWoZKp5Y-byHA",
-  "website": "https://www.youtube.com/channel/UCWBJ4ZVNc4kWoZKp5Y-byHA",
-  "repository": "https://github.com/Lunatixmanas/-KOT-BOTS-KOT-URL-UPLOADER-",
+  "success_url": "https://github.com/ANUNEET-Prg/URL-UPLODER_V2",
+  "website": "https://github.com/ANUNEET-Prg/URL-UPLODER_V2",
+  "repository": "https://github.com/ANUNEET-Prg/URL-UPLODER_V2",
   "env": {
     "WEBHOOK": {
       "description": "Leave this as it is! ANYTHING",
