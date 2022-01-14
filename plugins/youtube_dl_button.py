@@ -148,7 +148,7 @@ async def youtube_dl_call_back(bot, update):
     t_response = stdout.decode().strip()
     # logger.info(e_response)
     # logger.info(t_response)
-    ad_string_to_replace = "please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; see  https://yt-dl.org/update  on how to update. Be sure to call youtube-dl with the --verbose flag and include its complete output."
+    ad_string_to_replace = "please report this issue on @HelpAutomatted_Bot . Make sure you are using the latest version;."
     if e_response and ad_string_to_replace in e_response:
         error_message = e_response.replace(ad_string_to_replace, "")
         await bot.edit_message_text(
@@ -242,7 +242,7 @@ async def youtube_dl_call_back(bot, update):
                     duration=duration,
                     # performer=response_json["uploader"],
                     # title=response_json["title"],
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/Mo_Tech_YT')]]),
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Join Other Bot ⚙', url='https://telegram.me/Automatted_Bot')]]),
                     thumb=thumb_image_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
@@ -259,7 +259,7 @@ async def youtube_dl_call_back(bot, update):
                     thumb=thumb_image_path,
                     caption=description,
                     parse_mode="HTML",
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')]]),
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Join Other Bot ⚙', url='https://telegram.me/Automatted_Bot')]]),
                     reply_to_message_id=update.message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=(
@@ -296,7 +296,7 @@ async def youtube_dl_call_back(bot, update):
                     width=width,
                     height=height,
                     supports_streaming=True,
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')]]),
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Join Other Bot ⚙', url='https://telegram.me/Automatted_Bot')]]),
                     thumb=thumb_image_path,
                     reply_to_message_id=update.message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
